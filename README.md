@@ -122,6 +122,7 @@ cd RPG3DMultiplayer
 ## 📩 Contact
 
 **Member 1: Mai Gia Minh**
+
 📧 **Email:** [minh.mgia@gmail.com](mailto:minh.mgia@gmail.com)  
 🔗 **GitHub:** [maigiaminh](https://github.com/maigiaminh)  
 🌍 **Portfolio:** [https://maigiaminh.me](https://maigiaminh.me)
@@ -129,6 +130,7 @@ cd RPG3DMultiplayer
 ---
 
 **Member 2: Nguyen Tan Sang**
+
 📧 **Email:** [nguyentansangxd@gmail.com](mailto:nguyentansangxd@gmail.com)  
 🔗 **GitHub:** [tsan2711](https://github.com/tsan2711)  
 🌍 **Portfolio:** [https://tansang.com](https://tansang.com)
