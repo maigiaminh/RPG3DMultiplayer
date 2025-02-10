@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54a3c35316b3c4017a888b73ac80686a, type: 3}
+  m_Name: WhisperwindMission
+  m_EditorClassIdentifier: 
+  actorIcon: {fileID: 21300000, guid: a48ba009466b54f33a9d63c68793d3da, type: 3}
+  questName: WhisperwindQuest
+  actorName: Whisperwind
+  requirementsNotMetText:
+  - '"Ah, a seeker of knowledge! The Cipher of Ages, a powerful artifact, is hidden
+    within this very chamber. But it will only reveal itself to those who possess
+    the keenest minds. Solve my riddle, and the path to the Cipher will be revealed."'
+  requirementsNotMetAudio:
+  - {fileID: 8300000, guid: 47b1aaae34bb99245b0291b69a03ff7a, type: 3}
+  descriptText:
+  - "\"The Cipher of Ages holds knowledge lost to time, power that could reshape
+    the world. But it's protected by a series of intricate puzzles, each more challenging
+    than the last. Solve them all, and the Cipher shall be yours. Begin with this\u2026\""
+  descriptionAudio:
+  - {fileID: 8300000, guid: 53e393a2a2deb7c4b9ed70d3e9652fad, type: 3}
+  declinedText: []
+  declinedAudio: []
+  acceptedText: []
+  acceptedAudio: []
+  completedText:
+  - '"Congratulations! You have proven your worth. The Cipher is yours."'
+  completedAudio:
+  - {fileID: 8300000, guid: b1abad987b11a894c9aeea28089bda05, type: 3}
+  finishedText:
+  - '"Indeed! The Cipher awaits its master. May its knowledge serve you well!"'
+  finishedAudio:
+  - {fileID: 8300000, guid: bbeeba4b553608845aa969ae3a9032d1, type: 3}
+  inProgressText:
+  - "\"Your intellect is truly remarkable! But the Cipher guards its secrets well\u2026\""
+  inProgressAudio:
+  - {fileID: 8300000, guid: 1c0190e0f88fe5145acb9ef00378d187, type: 3}
+  playerRequirementsNotMetOptions:
+  - None@ Okay@ Thank you @ Oh, see you soon!
+  playerDescriptionOptions:
+  - Bring on your puzzles, Master!@ I'll need to think carefully about this.@ Get
+    straight to the point. What's the first puzzle?@ I will do my best to solve your
+    riddles.
+  playerDeclinedOptions: []
+  playerAcceptedOptions: []
+  playerCompletedOptions:
+  - Thank you, Silent One. This knowledge is invaluable.@ The whispers... what do
+    they truly mean?@ Good. I'll put this to good use.@ Incredible! I've never seen
+    anything like this!
+  playerFinishedOptions:
+  - Thank you, Whisperwind. The Sylvanwood is blessed to have you.@ What was the
+    malevolent presence?@ The beauty is restored! It's breathtaking!
+  playerInProgressOptions:
+  - I shall not be defeated!@ This is more difficult than I expected...@ I need to
+    examine this more closely.

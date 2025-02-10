@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54a3c35316b3c4017a888b73ac80686a, type: 3}
+  m_Name: ThePuzzlemasterMission
+  m_EditorClassIdentifier: 
+  actorIcon: {fileID: 21300000, guid: 4286d32f0592b41528337ab19e54c7bb, type: 3}
+  questName: The Puzzlemaster Quest
+  actorName: The Puzzlemaster
+  requirementsNotMetText:
+  - '"The Sylvanwood is silent... its song choked by a creeping shadow. Before I
+    can help it, you must prove your worth. Bring me three Sunpetal blooms and a
+    feather from a Nightshade Owl."'
+  requirementsNotMetAudio:
+  - {fileID: 8300000, guid: ad8c22b3c240851429cb60d82d8311b0, type: 3}
+  descriptText:
+  - '"The Sylvanwood, once vibrant with life, is fading. A malevolent presence has
+    stolen its song, silencing the ancient trees. To restore the harmony, you must
+    collect three Sunpetal blooms, found only in the sunniest glades, and a feather
+    from the elusive Nightshade Owl, a creature of twilight. Return these to me,
+    and I shall share the ancient secrets to heal the land."'
+  descriptionAudio:
+  - {fileID: 8300000, guid: 428b9df16793c18448ffd935e4d37bae, type: 3}
+  declinedText: []
+  declinedAudio: []
+  acceptedText: []
+  acceptedAudio: []
+  completedText:
+  - '"The Sylvanwood feels your presence. You have restored its song".'
+  completedAudio:
+  - {fileID: 8300000, guid: 98b11844f83fda64eb64279888d57398, type: 3}
+  finishedText:
+  - '"The forest remembers."'
+  finishedAudio:
+  - {fileID: 8300000, guid: 0139a2b1f4b69e041b9ade4369412ade, type: 3}
+  inProgressText:
+  - '"The Silent One nods slowly, eyes hidden within the shadows of his hood. ''You
+    seek the answers, but the path is not yet clear. Continue your progress''"'
+  inProgressAudio:
+  - {fileID: 8300000, guid: 570b0d9708ca2364a98b7b25be7ecd5b, type: 3}
+  playerRequirementsNotMetOptions:
+  - None@ Okay@ Thank you @ Oh, see you soon!
+  playerDescriptionOptions:
+  - Bring on your puzzles, Master!@ I'll need to think carefully about this.@ I'll
+    need to think carefully about this.@ Get straight to the point. What's the first
+    puzzle?@ I will do my best to solve your riddles.
+  playerDeclinedOptions: []
+  playerAcceptedOptions: []
+  playerCompletedOptions:
+  - I have conquered your puzzles!@ Thank you, Master. Your riddles were truly challenging.@
+    I was fortunate to solve them.
+  playerFinishedOptions:
+  - Indeed! I will unlock its secrets!@ This was exhilarating! Your puzzles were
+    masterfully crafted!@ Naturally, I solved them. I expected nothing less.
+  playerInProgressOptions:
+  - I'm reconsidering this... Is there another way to help?@ Are there any dangers
+    I should be aware of?@ Is there a faster way to get these items?@ Any advice
+    on finding these items?

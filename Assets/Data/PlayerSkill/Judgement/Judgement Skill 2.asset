@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f79b6d2fef40f4efc883cba7267e8a90, type: 3}
+  m_Name: Judgement Skill 2
+  m_EditorClassIdentifier: 
+  SkillName: Judgement Skill 2
+  Cooldown: 4
+  Duration: 3
+  Damage: 20
+  ManaCost: 15
+  ExperienceToNextLevel: 0
+  UnlockSkillLevel: 5
+  SkillPrefab: {fileID: 1903762055440479870, guid: 95944c6f49efd4b6fb82b8aae050ba97, type: 3}
+  ScalingData: {fileID: 11400000, guid: 25293dd543f9e4aa8aff75a2b532fed2, type: 2}
+  VisualEffect: {fileID: 0}
+  skillSpawnType: 10
+  HaveDelay: 1
+  DelayTime: 1.2
+  SkillIcon: {fileID: 21300000, guid: 173f7bf0258285c4f8bf01825ac02a11, type: 3}
+  SkillColor: {r: 0.6874552, g: 1, b: 0, a: 1}
+  SkillPanelDescript: {fileID: 11400000, guid: ed05edacbeeea42dab9febd81f010d34, type: 2}
+  SkillLevelRequiredToUpdate: 0a00000014000000190000001e000000
+  GoldRequiredToUpdateBase: 750
+  GoldIncreasePercentUpdate: 20
+  spawnType: 5
+  executeType: 0
+  Speed: 0
+  DamageRateArea: 0
+  AreaRadius: 0
+  ExplodeRadius: 0
+  DamageRateBurst: 0.75
+  BlockRate: 0
+  GroundDamageRate: 0
+  ImmuneTime: 0
+  HealAmount: 0
+  CCRadius: 0
+  CCStickEnemyType: 0
+  CCStickPlayerType: 0
+  CCDamageRate: 0
+  AmountTurns: 0
+  IncreasePercentPerTurn: 0
+  DamageRateAim: 0

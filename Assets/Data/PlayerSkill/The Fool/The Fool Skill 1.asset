@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f79b6d2fef40f4efc883cba7267e8a90, type: 3}
+  m_Name: The Fool Skill 1
+  m_EditorClassIdentifier: 
+  SkillName: The Fool Skill 1
+  Cooldown: 1
+  Duration: 2
+  Damage: 10
+  ManaCost: 20
+  ExperienceToNextLevel: 10
+  UnlockSkillLevel: 0
+  SkillPrefab: {fileID: 4104131864240732149, guid: ed9c571e2841d42eaae9f09a60627270, type: 3}
+  ScalingData: {fileID: 11400000, guid: e05df41a151824a4ba369ba84ee74fd3, type: 2}
+  VisualEffect: {fileID: 11400000, guid: 264e3b066546f4d3790fafba2f787814, type: 2}
+  skillSpawnType: 0
+  HaveDelay: 0
+  DelayTime: 0
+  SkillIcon: {fileID: 21300000, guid: 2b3889a2bb9beb444adf6734821e1c02, type: 3}
+  SkillColor: {r: 0, g: 1, b: 0.5594096, a: 1}
+  SkillPanelDescript: {fileID: 11400000, guid: a7e680e9af3634e4da7a7a2903dfe9bb, type: 2}
+  SkillLevelRequiredToUpdate: 0f00000014000000190000001e000000
+  GoldRequiredToUpdateBase: 750
+  GoldIncreasePercentUpdate: 20
+  spawnType: 0
+  executeType: 0
+  Speed: 15
+  DamageRateArea: 0
+  AreaRadius: 0
+  ExplodeRadius: 0
+  DamageRateBurst: 0
+  BlockRate: 0
+  GroundDamageRate: 0
+  ImmuneTime: 0
+  HealAmount: 0
+  CCRadius: 0
+  CCStickEnemyType: 0
+  CCStickPlayerType: 0
+  CCDamageRate: 0
+  AmountTurns: 0
+  IncreasePercentPerTurn: 0
+  DamageRateAim: 0

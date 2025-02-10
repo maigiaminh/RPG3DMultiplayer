@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 547efcf3fd4e048b688caf134cac0d94, type: 3}
+  m_Name: Werewolf
+  m_EditorClassIdentifier: 
+  Token: 10
+  EnemyType: 19
+  DifficultyType: 2
+  XP: 2500
+  Gold: 50
+  Misc: 0
+  ItemDrops:
+  - {fileID: 845277768862170730, guid: 6353fb57d07194f8d8d7ce72edf926e9, type: 3}
+  - {fileID: 4457377671521540832, guid: ba3b4a5bf598d4583ae8ea2433758ed7, type: 3}
+  - {fileID: 3504840770792944848, guid: 1a31a2b88f6cf43f0bc9bc425f127500, type: 3}
+  - {fileID: 1493037522940040645, guid: ea5d9ca6fe2cd454e8f7b697cb2a14c3, type: 3}
+  - {fileID: 646903294784294096, guid: 751e5f2eaece64b728f66210f0d28af6, type: 3}
+  - {fileID: 6233426213310018307, guid: c90e52375ffaa4f03bff1f9e9faf093e, type: 3}
+  - {fileID: 4598410005354256467, guid: 822c71fef38964e86a7ebc5e90c13b04, type: 3}
+  - {fileID: 7299791128650566890, guid: 998f667620ba34c3d8300586afb9e93b, type: 3}
+  - {fileID: 5078992315380955387, guid: 9860d52eae03c40e9b35422cb8e9195b, type: 3}
+  - {fileID: 603711374995139164, guid: 8de33227cb10045f28a574a9e61d4a6e, type: 3}
+  - {fileID: 1150148096079350149, guid: cd3f8fdf731f6449c8bef4adcc5f1106, type: 3}
+  - {fileID: 8879775334858856469, guid: 500d3df3d2d984483ba9b95f1d39f75a, type: 3}
+  - {fileID: 9142358450828983058, guid: 0771f101b948b4a5b9470b3538d96f9b, type: 3}
+  - {fileID: 2127337833153707634, guid: ef14141d205474e35bfa2ae2fde77459, type: 3}
+  - {fileID: 2321681736277868587, guid: ece2161fd7293406a8b6ca54c1f569a7, type: 3}
+  - {fileID: 6493847858193654488, guid: a1dd7589238bf43fba8874b5bb66acba, type: 3}
+  - {fileID: 612948818353205771, guid: ebb536f101f384528bb4ce6d1e33e798, type: 3}
+  - {fileID: 6031383413172816571, guid: 279129d54dcf94975a64370ab0b246ca, type: 3}
+  - {fileID: 623562945812842622, guid: 1336923d880f64f048ec34cb2fd98dba, type: 3}
+  - {fileID: 6959775647799689290, guid: fc07e6ebd26ff43b9984214886cbe978, type: 3}
+  - {fileID: 695986730379131021, guid: aa4392a2b8ec1406783a10cecc84e732, type: 3}
+  - {fileID: 4614701327793650083, guid: fcc9fb688dae544a3921e7ad95253d94, type: 3}
+  - {fileID: 21521713340870286, guid: b11e1e93499a1400bb725379cfe5e016, type: 3}
+  - {fileID: 2022521937185835699, guid: 73eb3e6e36cb149b0acdb8fdb40ad571, type: 3}
+  - {fileID: 549959790661532871, guid: 66d37b87ba24a446eb4d2e3850a161f8, type: 3}
+  - {fileID: 3061377508880287838, guid: c277d404ef70a4281bea3291a763e47d, type: 3}
+  - {fileID: 410264437063251304, guid: b15217092c57a439fab4a7c5cf922585, type: 3}
+  - {fileID: 2925611112399014465, guid: 61079ea0c86074756ac4cfcb12535e0a, type: 3}
+  - {fileID: 1593438085255640145, guid: daab45af9b14c4f46a2b0213c80316de, type: 3}
+  - {fileID: 2185199888720540602, guid: 9923dc9c7ad4d4b1b9ffa7b4e57ad748, type: 3}
+  - {fileID: 5291350582530823753, guid: 93f1fdcde4c2648cc8a62ed1bafb918c, type: 3}
+  - {fileID: 399980930060465699, guid: 1b598225bd8124bda90364071e0509f0, type: 3}
+  - {fileID: 6201627080768193630, guid: e552cab70640b4870aa3e644f6526ec2, type: 3}
+  - {fileID: 3793140986209861773, guid: 34a2abde6ec7746eab1984277200f67c, type: 3}
+  - {fileID: 3117596320858773342, guid: 38d96323d1a3d40b5a6cf29b26e89261, type: 3}
+  - {fileID: 8578488862184339941, guid: 38cf8f7702c1c4289acfa2256729e297, type: 3}
+  - {fileID: 8366393968950737033, guid: 719d72b1623224789896b372b492ba74, type: 3}
+  - {fileID: 6966491687610035555, guid: 83d106264ad3a47419f99644535b482f, type: 3}
+  - {fileID: 502061748977876040, guid: 775996a3d8edf43ec99429a83020c534, type: 3}
+  - {fileID: 6831436639881013028, guid: b4a4cf7ee00fa4b3289e327f96e5fa93, type: 3}
+  - {fileID: 1012607740961785597, guid: e625ae447c1c545119acfdab8cb49a08, type: 3}
+  - {fileID: 8279431225305493912, guid: c2eb4191fca5d49a5b65186223ef9088, type: 3}
+  - {fileID: 3822809729984748283, guid: 8e18560f2f3bf4655866feacbb727b49, type: 3}
+  - {fileID: 7965198143537678735, guid: 27bc1a437283443d8a33cd0a5a86cf1a, type: 3}
+  - {fileID: 8534535597210839911, guid: 56a3234753b0a4be0b34da67b5511ddb, type: 3}
+  dropRate: 0.2
+  AttackConfiguration: {fileID: 11400000, guid: 9dba1196dee9a4da1862745c501fe5fb, type: 2}
+  Skills:
+  - {fileID: 11400000, guid: 26f4e2c9b8305453e852d9b462abb6b1, type: 2}
+  - {fileID: 11400000, guid: 0d6fdaaee5bfc4cdcb20d36113e8352e, type: 2}
+  - {fileID: 11400000, guid: 4193251925efb43ae975375217d8ee40, type: 2}
+  AuraType: 2
+  OutfitData: {fileID: 11400000, guid: 63d234c24891e48b5916fef11d2c99b5, type: 2}
+  Portrait: {fileID: 21300000, guid: f422b46e79bd346e8ab5bce4ef3658d8, type: 3}
+  Health: 1600
+  DissolveTime: 2.5
+  TimeToDissolve: 2
+  DissolveEffect: {fileID: 187093604217395080, guid: 780123cdb3e2e46a28a8d3af69b01c2c, type: 3}
+  ChaseSpeed: 8
+  ChaseRange: 8
+  IdleTime: 7
+  PatrolSpeed: 1.5
+  PatrolTime: 7
+  RotationTime: 1.5
+  isRanger: 1
+  isMelee: 0
+  isMage: 0
+  isTank: 0
+  AIUpdateInterval: 0.1
+  Acceleration: 8
+  AngularSpeed: 120
+  AreaMask: -1
+  AvoidancePriority: 50
+  BaseOffset: 0
+  Height: 0.5
+  ObstacleAvoidanceType: 1
+  Radius: 0.5
+  MoveSpeed: 1
+  StoppingDistance: 0.5

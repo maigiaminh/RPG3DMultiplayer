@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf57310fb3c54311b0dcc1239290f72, type: 3}
+  m_Name: Lava Eruption
+  m_EditorClassIdentifier: 
+  cooldown: 30
+  duration: 3
+  damage: 30
+  unlockSkillLevel: 0
+  skillPrefab: {fileID: 365525257862929717, guid: 45a25bc98510143f8b75fb0d3a271cb1, type: 3}
+  skillRange: 10
+  radius: 5
+  timeToApplyDamage:
+  - 0.65
+  - 0.6
+  - 0.75

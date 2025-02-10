@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f79b6d2fef40f4efc883cba7267e8a90, type: 3}
+  m_Name: The Hierophant Skill 2
+  m_EditorClassIdentifier: 
+  SkillName: The Hierophant Skill 2
+  Cooldown: 10
+  Duration: 4
+  Damage: 0
+  ManaCost: 0
+  ExperienceToNextLevel: 0
+  UnlockSkillLevel: 5
+  SkillPrefab: {fileID: -3731175184405271712, guid: 02a21d677714240fea3324800f67838d, type: 3}
+  ScalingData: {fileID: 11400000, guid: 72dce6988d6bb4ceaa61604eff6cf63b, type: 2}
+  VisualEffect: {fileID: 0}
+  skillSpawnType: 6
+  HaveDelay: 0
+  DelayTime: 0
+  SkillIcon: {fileID: 21300000, guid: 2939fd8983935344ebc7fb0be471b4a3, type: 3}
+  SkillColor: {r: 0, g: 1, b: 0.039124012, a: 1}
+  SkillPanelDescript: {fileID: 11400000, guid: 8c9e4c5004c76493698c232f00bb5b12, type: 2}
+  SkillLevelRequiredToUpdate: 0f00000014000000190000001e000000
+  GoldRequiredToUpdateBase: 1000
+  GoldIncreasePercentUpdate: 20
+  spawnType: 1
+  executeType: 0
+  Speed: 0
+  DamageRateArea: 0
+  AreaRadius: 0
+  ExplodeRadius: 0
+  DamageRateBurst: 0
+  BlockRate: 0
+  GroundDamageRate: 0.2
+  ImmuneTime: 0
+  HealAmount: 50
+  CCRadius: 0
+  CCStickEnemyType: 0
+  CCStickPlayerType: 0
+  CCDamageRate: 0
+  AmountTurns: 0
+  IncreasePercentPerTurn: 0
+  DamageRateAim: 0

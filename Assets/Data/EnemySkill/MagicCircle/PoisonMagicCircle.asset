@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa74fce52ac324439be617ea3c08e316, type: 3}
+  m_Name: PoisonMagicCircle
+  m_EditorClassIdentifier: 
+  cooldown: 30
+  duration: 10
+  damage: 5
+  unlockSkillLevel: 0
+  skillPrefab: {fileID: 7502324431141857679, guid: 07a01350c21ff473b97062512f6ca75d, type: 3}
+  skillRange: 10
+  tickRate: 2
+  insideUnitCircleRadius: 4

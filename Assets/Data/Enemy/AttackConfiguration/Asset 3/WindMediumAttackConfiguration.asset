@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8030df82c499e4f97a4eb0ce4ac8ed67, type: 3}
+  m_Name: WindMediumAttackConfiguration
+  m_EditorClassIdentifier: 
+  isRanged: 1
+  damage: 6
+  attackRange: 6
+  attackSpeed: 0.25
+  attackDelay: 5
+  attackCooldown: 6
+  projectilePrefab: {fileID: 832819736761814580, guid: 38c47b3d4ee7e491a8ac7ece7de8c6f1, type: 3}
+  LineOfSightLayers:
+    serializedVersion: 2
+    m_Bits: 9

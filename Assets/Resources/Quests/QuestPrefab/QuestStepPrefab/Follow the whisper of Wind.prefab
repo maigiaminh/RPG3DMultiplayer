@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4068857058930231765
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8141527023581441927}
+  - component: {fileID: 4213965526145567722}
+  m_Layer: 0
+  m_Name: Follow the whisper of Wind
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8141527023581441927
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4068857058930231765}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -358.42798, y: -58.85546, z: -11.847756}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4213965526145567722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4068857058930231765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c0015692598a4aaea83f04f37755534, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isTimied: 0
+  _destinationList:
+  - {fileID: 1618022075475784094, guid: 381f3c2cff0a542f29fcb7e8e833ed6a, type: 3}
+  - {fileID: 769429671996316057, guid: 200550d16fab24e058efd78bfb0198f6, type: 3}
+  - {fileID: 8384597395687553187, guid: 846ef7afb9cfd4f729bc952993333e29, type: 3}
+  - {fileID: 6404155877939082482, guid: 3232bc7cf6f744f5b9dc5d569a7927ed, type: 3}
+  - {fileID: 2503461173844951234, guid: 6f8aa9537d4824a019e11aeec8586645, type: 3}
+  - {fileID: 2434641541784607414, guid: 54c6f6ac987724282a9c495f5a3a1df8, type: 3}
+  - {fileID: 7808037056219753912, guid: ae893c182d4e44ab2841f348dfd02b94, type: 3}
+  - {fileID: 6743747736795899657, guid: 6d6a190590ecf4847b3ed0cd4c204d6a, type: 3}
+  - {fileID: 8057450901446846611, guid: d10ff6dea61144627b3440a2edfb5068, type: 3}
+  - {fileID: 5880085388249366383, guid: 54100888017064357bff2e8863f2f152, type: 3}
+  - {fileID: 863528475523982437, guid: 175a901a0b75447b1b5de3b303792e1e, type: 3}
+  - {fileID: 7052519797804948772, guid: 38587d91b19e74f62994f4d367f24215, type: 3}
+  - {fileID: 3243050201678125530, guid: 952cf529f10c14e88ad862dcf6f6c670, type: 3}
+  - {fileID: 7478646184270830768, guid: c8a0f6a158a9d45f8b5081ebf3d25e4a, type: 3}

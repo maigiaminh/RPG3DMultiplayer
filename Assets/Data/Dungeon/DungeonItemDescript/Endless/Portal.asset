@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8029be93943464f0fb88361939f35c80, type: 3}
+  m_Name: Portal
+  m_EditorClassIdentifier: 
+  DungeonData: {fileID: 11400000, guid: a031e95cc313b41e3b9a5bd1b4843848, type: 2}
+  DungeonName: Castle of Eternal Dread
+  DungeonPortrait: {fileID: 21300000, guid: 45a08a715d50d4ad8b4bcf9356660299, type: 3}
+  WhisperRewardSprites:
+  - {fileID: 21300000, guid: 492ca6b4d6b543b49aecaad8efc00724, type: 3}
+  - {fileID: 21300000, guid: 0e1c6bd2751dcee4eb7faeed8680e859, type: 3}
+  - {fileID: 21300000, guid: eeb3849eb8d1c0048b0779163dc37786, type: 3}
+  WhispersLevelRequire: 5
+  WhispersSprite: {fileID: 21300000, guid: 9c463666969dfbd4ea113ff32760cf62, type: 3}
+  WhispersColor: {r: 0.8490566, g: 0.8490566, b: 0.8490566, a: 0.8}
+  WhisperDescription: The outer areas of the Cairns, relatively easy to navigate.
+    Enemies are weak and easily dispatched. Focus is on exploration and solving basic
+    environmental puzzles.
+  CoilsRewardSprites:
+  - {fileID: 21300000, guid: 98498b833764267479a46aed6f7f8e05, type: 3}
+  - {fileID: 21300000, guid: ea8f758bbfd3aa7429c765b092d9e7cf, type: 3}
+  - {fileID: 21300000, guid: 4f6ea6fe0a607468c9fbaf2a44d58f5c, type: 3}
+  CoilsLevelRequire: 25
+  CoilsSprite: {fileID: 21300000, guid: 347d44b9e717a2942aa538383dc396e4, type: 3}
+  CoilsColor: {r: 0.76862746, g: 0.77254903, b: 0.20784314, a: 0.8}
+  CoilsDescription: More complex layout with hidden passages and environmental puzzles.
+    Enemies are stronger, incorporating spirits and magical traps. Combines exploration
+    with problem solving and combat.
+  TempestRewardSprites:
+  - {fileID: 21300000, guid: a6f63cb4a7b89bc4d83650a63994e1b9, type: 3}
+  - {fileID: 21300000, guid: 4f6ea6fe0a607468c9fbaf2a44d58f5c, type: 3}
+  - {fileID: 21300000, guid: 11be42c54fdd34a0cbe0e8f25d2c8d36, type: 3}
+  TempestLevelRequire: 30
+  TempestSprite: {fileID: 21300000, guid: 614f461b6de0eb84bb39e5dc79f0e6f2, type: 3}
+  TempestColor: {r: 0.9716981, g: 0.26125845, b: 0.2902641, a: 0.8}
+  TempestDescription: The central Cairns, containing the tombs of powerful ancient
+    guardians. Requires skillful combat to defeat the powerful guardians protecting
+    the treasures. Focuses on challenging boss battles and utilizing environment
+    to one's advantage.
+  AbyssRewardSprites:
+  - {fileID: 21300000, guid: 99daa388496695a49aa50e8d6517816e, type: 3}
+  - {fileID: 21300000, guid: 2f92fd559cbd36546a8c6589931821af, type: 3}
+  - {fileID: 21300000, guid: b3b1e651c8ec14248b5dc31862a1e3ff, type: 3}
+  AbyssLevelRequire: 35
+  AbyssSprite: {fileID: 21300000, guid: d4853c4778872bd409c054fc5f9d0aa4, type: 3}
+  AbyssColor: {r: 0.15435766, g: 0.8117647, b: 0.10196078, a: 0.8}
+  AbyssDescription: The deepest and most dangerous part of the Cairns, where a powerful
+    Necromancer performs a dangerous ritual. Requires skillful combat, solving intricate
+    puzzles, and potentially resource management to counter the Necromancer's overwhelming
+    power. Features several distinct phases.

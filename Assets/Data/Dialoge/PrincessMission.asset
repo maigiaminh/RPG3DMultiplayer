@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54a3c35316b3c4017a888b73ac80686a, type: 3}
+  m_Name: PrincessMission
+  m_EditorClassIdentifier: 
+  actorIcon: {fileID: 21300000, guid: 097687cacf40440ccae70bfa8a444163, type: 3}
+  questName: PrincessQuest
+  actorName: Princess
+  requirementsNotMetText:
+  - U dumb !
+  requirementsNotMetAudio: []
+  descriptText:
+  - Thank goodness you're here! My daughter was taken by bandits into the forest.
+    Please, you must help me! She's all I have left.
+  - They often hide in the old ruins to the west. Be careful, they're dangerous.
+    Bring her back safely, please.
+  descriptionAudio: []
+  declinedText: []
+  declinedAudio: []
+  acceptedText: []
+  acceptedAudio: []
+  completedText:
+  - They often hide in the old ruins to the west. Be careful, they're dangerous.
+    Bring her back safely, please
+  - Thank goodness you're here! My daughter was taken by bandits into the forest.
+    Please, you must help me! She's all I have left.
+  completedAudio: []
+  finishedText:
+  - Thank goodness you're here!
+  finishedAudio: []
+  inProgressText:
+  - My daughter was taken by bandits into the forest. Please, you must help me! She's
+    all I have left.
+  inProgressAudio: []
+  playerRequirementsNotMetOptions:
+  - fack you@ hehe@ fack you@ fack you
+  playerDescriptionOptions:
+  - They often hide in the old ruins to the west. Be careful, they're dangerous.
+    Bring her back safely, please.@ Sure, how many do you need?@ Sure, how many do
+    you need?
+  - Don't worry, I'll find her. Do you know where they might have gone?@ Sure, how
+    many do you need?@ Sure, how many do you need?
+  playerDeclinedOptions: []
+  playerAcceptedOptions: []
+  playerCompletedOptions:
+  - They often hide in the old ruins to the west. Be careful, they're dangerous.
+    Bring her back safely, please.@ Sure, how many do you need?@ Sure, how many do
+    you need?
+  - Don't worry, I'll find her. Do you know where they might have gone?@ Sure, how
+    many do you need?@ Sure, how many do you need?
+  playerFinishedOptions:
+  - Sure, how many do you need?
+  playerInProgressOptions:
+  - Sure, how many do you need?Sure, how many do you need?Sure, how many do you need?

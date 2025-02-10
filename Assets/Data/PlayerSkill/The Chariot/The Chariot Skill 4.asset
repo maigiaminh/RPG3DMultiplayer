@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f79b6d2fef40f4efc883cba7267e8a90, type: 3}
+  m_Name: The Chariot Skill 4
+  m_EditorClassIdentifier: 
+  SkillName: The Chariot Skill 4
+  Cooldown: 6
+  Duration: 3.7
+  Damage: 10
+  ManaCost: 80
+  ExperienceToNextLevel: 0
+  UnlockSkillLevel: 20
+  SkillPrefab: {fileID: 1184038150798127974, guid: ae19c76d320d14757b6d243227b81d21, type: 3}
+  ScalingData: {fileID: 11400000, guid: efba31a62880a49c6956c00ed73d47e6, type: 2}
+  VisualEffect: {fileID: 0}
+  skillSpawnType: 7
+  HaveDelay: 0
+  DelayTime: 2.8
+  SkillIcon: {fileID: 21300000, guid: e9d9f46f0cf03be4782ad85a3f8a2be6, type: 3}
+  SkillColor: {r: 1, g: 0, b: 0.60913324, a: 1}
+  SkillPanelDescript: {fileID: 11400000, guid: 2bf85a0d0113343f9b98c5c0998c7b85, type: 2}
+  SkillLevelRequiredToUpdate: 190000001e0000002300000028000000
+  GoldRequiredToUpdateBase: 1750
+  GoldIncreasePercentUpdate: 20
+  spawnType: 13
+  executeType: 0
+  Speed: 0
+  DamageRateArea: 0
+  AreaRadius: 0
+  ExplodeRadius: 0
+  DamageRateBurst: 0
+  BlockRate: 0
+  GroundDamageRate: 0
+  ImmuneTime: 0
+  HealAmount: 0
+  CCRadius: 0
+  CCStickEnemyType: 0
+  CCStickPlayerType: 0
+  CCDamageRate: 0
+  AmountTurns: 0
+  IncreasePercentPerTurn: 0
+  DamageRateAim: 3

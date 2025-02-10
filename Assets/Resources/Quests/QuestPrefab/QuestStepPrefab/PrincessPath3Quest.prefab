@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1205658100308020101
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5375231580721216940}
+  - component: {fileID: 8103505300666376203}
+  m_Layer: 0
+  m_Name: PrincessPath3Quest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5375231580721216940
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205658100308020101}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -358.42798, y: -58.85546, z: -11.847756}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8103505300666376203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205658100308020101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c0015692598a4aaea83f04f37755534, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isTimied: 0
+  _destinationList:
+  - {fileID: 217560159737618839, guid: 4ee5d961f493740c9b3ee333a8572d04, type: 3}
+  - {fileID: 7823354084400571542, guid: 3342751504200461e8f8bd8515f460b4, type: 3}
+  - {fileID: 2867797922456725914, guid: f28b69c4572874fb6b9c5afe22b833be, type: 3}
+  - {fileID: 7048319482159519843, guid: 09b13c4d6abf8426e91c4cd926c022c8, type: 3}
+  - {fileID: 5782259053844872975, guid: 2984239e8435b46c1beb5789dc61b71c, type: 3}
+  - {fileID: 159820227171216088, guid: a88a4ce7bf002424d9467ca19dd46626, type: 3}
+  - {fileID: 7868137758401801812, guid: 15785c403f6c247988bad45d11b83ca3, type: 3}
+  - {fileID: 5985314184107996157, guid: cafd00ef273024d969735818c0628684, type: 3}
+  - {fileID: 9169487312104893388, guid: 2a37ff4963e004fd5ba58f80d76cdae7, type: 3}
+  - {fileID: 4851042225462875570, guid: 854d3822b47cd44fca2b307dee390c08, type: 3}
+  - {fileID: 930036092328675153, guid: 631e66a1a14164aa4a21ff5a7d294030, type: 3}
+  - {fileID: 4659559608180699259, guid: 50863c6da41354b71a584ee1604dc27d, type: 3}

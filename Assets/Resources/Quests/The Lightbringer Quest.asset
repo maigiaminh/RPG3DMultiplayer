@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83c37bf349d7f49849110b0d010d89eb, type: 3}
+  m_Name: The Lightbringer Quest
+  m_EditorClassIdentifier: 
+  <id>k__BackingField: The Lightbringer Quest
+  displayName: TheLightbringer
+  playerLevelRequirement: 20
+  questPrerequisites: []
+  questStepPrefabs:
+  - {fileID: 8844465616633564151, guid: 645b116ff2cf64961bd5b834d18b413e, type: 3}
+  goldReward: 50
+  experienceReward: 100
+  dialogeInfo: {fileID: 11400000, guid: 03457d5a81b754d52a527bdc78a4431f, type: 2}

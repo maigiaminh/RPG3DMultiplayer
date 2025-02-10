@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f79b6d2fef40f4efc883cba7267e8a90, type: 3}
+  m_Name: The Chariot Skill 1
+  m_EditorClassIdentifier: 
+  SkillName: The Chariot Skill 1
+  Cooldown: 4
+  Duration: 3
+  Damage: 10
+  ManaCost: 10
+  ExperienceToNextLevel: 0
+  UnlockSkillLevel: 0
+  SkillPrefab: {fileID: 4467931830493596110, guid: 8d79eabbc19de48448cc60441d9717c6, type: 3}
+  ScalingData: {fileID: 11400000, guid: efba31a62880a49c6956c00ed73d47e6, type: 2}
+  VisualEffect: {fileID: 11400000, guid: 89a01cd5d7dd44c97baf01de91e4bb0c, type: 2}
+  skillSpawnType: 0
+  HaveDelay: 1
+  DelayTime: 1.5
+  SkillIcon: {fileID: 21300000, guid: 2b3889a2bb9beb444adf6734821e1c02, type: 3}
+  SkillColor: {r: 1, g: 0, b: 0, a: 1}
+  SkillPanelDescript: {fileID: 11400000, guid: 69ee84743e67140949ff091fe751dd72, type: 2}
+  SkillLevelRequiredToUpdate: 0a0000000f0000001400000019000000
+  GoldRequiredToUpdateBase: 500
+  GoldIncreasePercentUpdate: 20
+  spawnType: 0
+  executeType: 0
+  Speed: 40
+  DamageRateArea: 0
+  AreaRadius: 0
+  ExplodeRadius: 0
+  DamageRateBurst: 0
+  BlockRate: 0
+  GroundDamageRate: 0
+  ImmuneTime: 0
+  HealAmount: 0
+  CCRadius: 0
+  CCStickEnemyType: 0
+  CCStickPlayerType: 0
+  CCDamageRate: 0
+  AmountTurns: 0
+  IncreasePercentPerTurn: 0
+  DamageRateAim: 0

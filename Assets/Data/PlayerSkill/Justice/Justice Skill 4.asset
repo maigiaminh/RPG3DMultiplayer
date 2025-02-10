@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f79b6d2fef40f4efc883cba7267e8a90, type: 3}
+  m_Name: Justice Skill 4
+  m_EditorClassIdentifier: 
+  SkillName: Justice Skill 4
+  Cooldown: 10
+  Duration: 8
+  Damage: 0
+  ManaCost: 100
+  ExperienceToNextLevel: 0
+  UnlockSkillLevel: 20
+  SkillPrefab: {fileID: 2429458911053928476, guid: ffc7e9156285a48319032a61d38c9e6f, type: 3}
+  ScalingData: {fileID: 11400000, guid: 63884de3a8e47490992d0183b44e1a9e, type: 2}
+  VisualEffect: {fileID: 0}
+  skillSpawnType: 6
+  HaveDelay: 0
+  DelayTime: 0
+  SkillIcon: {fileID: 21300000, guid: 609fca9d877e1054ca6607b9ca248c6b, type: 3}
+  SkillColor: {r: 1, g: 0, b: 0.29533434, a: 1}
+  SkillPanelDescript: {fileID: 11400000, guid: a63e66f65efbb453fa95b522d31254eb, type: 2}
+  SkillLevelRequiredToUpdate: 190000001e0000002300000028000000
+  GoldRequiredToUpdateBase: 2000
+  GoldIncreasePercentUpdate: 20
+  spawnType: 8
+  executeType: 0
+  Speed: 0
+  DamageRateArea: 0
+  AreaRadius: 0
+  ExplodeRadius: 0
+  DamageRateBurst: 0
+  BlockRate: 90
+  GroundDamageRate: 0
+  ImmuneTime: 5
+  HealAmount: 0
+  CCRadius: 0
+  CCStickEnemyType: 0
+  CCStickPlayerType: 0
+  CCDamageRate: 0
+  AmountTurns: 0
+  IncreasePercentPerTurn: 0
+  DamageRateAim: 0

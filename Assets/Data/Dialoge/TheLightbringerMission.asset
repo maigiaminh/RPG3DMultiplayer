@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54a3c35316b3c4017a888b73ac80686a, type: 3}
+  m_Name: TheLightbringerMission
+  m_EditorClassIdentifier: 
+  actorIcon: {fileID: 21300000, guid: 1549f4873ca7145f4a79ccd3d3c7db7f, type: 3}
+  questName: The LightbringerQuest
+  actorName: The Lightbringer
+  requirementsNotMetText:
+  - '"The Shadow''s Embrace tightens its grip upon the sacred grove. Before I can
+    intervene directly, you must prove your devotion. Bring me three Tears of the
+    Dawn and a sliver of holy moonlight."'
+  requirementsNotMetAudio:
+  - {fileID: 8300000, guid: ad3528d668767fd4c9f020f2c528b9bd, type: 3}
+  descriptText:
+  - "\"A creeping darkness threatens the sacred grove, a corruption that feeds upon
+    the land's sanctity. To cleanse this unholy blight, you must gather three Tears
+    of the Dawn \u2013 droplets of dew collected at the break of day \u2013 and a
+    sliver of holy moonlight, captured only during the peak of the celestial glow.
+    Bring these to me, and together, we shall banish the encroaching shadow.\""
+  descriptionAudio:
+  - {fileID: 8300000, guid: d84cdd379e2ba724b9f0d601cb377138, type: 3}
+  declinedText: []
+  declinedAudio: []
+  acceptedText: []
+  acceptedAudio: []
+  completedText:
+  - '"The Shadow''s Embrace is broken! You have proven yourself a true champion of
+    the light."'
+  completedAudio:
+  - {fileID: 8300000, guid: 56e223039a151eb4589f3908507ebdc6, type: 3}
+  finishedText:
+  - '"May the light guide your path, and may your deeds ever be righteous."'
+  finishedAudio:
+  - {fileID: 8300000, guid: c632ae748315400489de512fbd8c88f3, type: 3}
+  inProgressText:
+  - '"The path is illuminated by faith. Let the light guide your way."'
+  inProgressAudio:
+  - {fileID: 8300000, guid: c825a929d5600f54fa3bea64d4f266c1, type: 3}
+  playerRequirementsNotMetOptions:
+  - None@ Okay@ Thank you @ Oh, see you soon!
+  playerDescriptionOptions:
+  - I am honored to serve your holy purpose.@ What is this Shadow's Embrace?@ Tears
+    of dawn and moonlight. Got it.@ Divine intervention? I'll see if this works.
+  playerDeclinedOptions: []
+  playerAcceptedOptions: []
+  playerCompletedOptions:
+  - Glory to the Light!@ Thank you, Lightbringer. Your guidance was invaluable.@
+    It was my honor to serve.
+  playerFinishedOptions:
+  - May the light guide my path always.@ Thank you, Lightbringer. Your wisdom and
+    guidance were invaluable.@ It was an honor to serve the light.@ This victory
+    will embolden my faith further.
+  playerInProgressOptions:
+  - I will follow the path of righteousness.@ Are there any dangers I should be wary
+    of?@ I will not be deterred.

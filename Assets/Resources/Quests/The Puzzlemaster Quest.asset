@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83c37bf349d7f49849110b0d010d89eb, type: 3}
+  m_Name: The Puzzlemaster Quest
+  m_EditorClassIdentifier: 
+  <id>k__BackingField: The Puzzlemaster Quest
+  displayName: ThePuzzlemaster
+  playerLevelRequirement: 35
+  questPrerequisites: []
+  questStepPrefabs:
+  - {fileID: 440082662938677545, guid: 14346e9b57c474785a162bdd7dfb8a77, type: 3}
+  goldReward: 50
+  experienceReward: 100
+  dialogeInfo: {fileID: 11400000, guid: aee07f94d32a84b9fb63b07bf132ad7e, type: 2}

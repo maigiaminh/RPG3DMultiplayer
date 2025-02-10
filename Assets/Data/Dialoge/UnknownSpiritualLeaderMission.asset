@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54a3c35316b3c4017a888b73ac80686a, type: 3}
+  m_Name: UnknownSpiritualLeaderMission
+  m_EditorClassIdentifier: 
+  actorIcon: {fileID: 21300000, guid: 885790f98494742519534d269c43d95c, type: 3}
+  questName: Unknown Spiritual Leader Quest
+  actorName: Unknown Spiritual Leader
+  requirementsNotMetText:
+  - '"The air crackles with an unseen energy... You sense a deep, ancient power here,
+    yet it remains shrouded in mystery. You must prove your worth before the whispers
+    of the ancients will be revealed to you"'
+  requirementsNotMetAudio:
+  - {fileID: 8300000, guid: f67b8b5a09f9ad34cbce02f628e6516f, type: 3}
+  descriptText:
+  - The Silent One, a figure cloaked in shadow and ancient wisdom, gestures towards
+    a crumbling stone. 'The spirits are restless. Their voices, once clear, are now
+    faint whispers carried on the wind. To restore the balance, you must find the
+    exaclibur, a relic of forgotten power, and god's blood, a token of unwavering
+    devotion. Return these to me, and I will share the secrets held within the whispers.'
+  - They often hide in the old ruins to the west. Be careful, they're dangerous.
+    Bring her back safely, please.
+  descriptionAudio:
+  - {fileID: 8300000, guid: 78d6adc6140c49a4eb91ac4032cf0b82, type: 3}
+  - {fileID: 8300000, guid: 82fffd0fbb823eb4b8683ff96af6a62d, type: 3}
+  declinedText: []
+  declinedAudio: []
+  acceptedText: []
+  acceptedAudio: []
+  completedText:
+  - The Silent One's shrouded form seems to shift, a faint light emanating from within.
+    'You have proven yourself worthy. The whispers... they reveal themselves to you
+    now".
+  completedAudio:
+  - {fileID: 8300000, guid: 10ceca76225ef184799ccc28b06fbe32, type: 3}
+  finishedText:
+  - '"The Silent One fades back into the shadows, leaving you to contemplate the
+    ancient knowledge you have gained".'
+  finishedAudio: []
+  inProgressText:
+  - '"The Silent One nods slowly, eyes hidden within the shadows of his hood. ''You
+    seek the answers, but the path is not yet clear. Continue your progress''"'
+  inProgressAudio:
+  - {fileID: 8300000, guid: 83e353628eb0ff9418ca5dcc7cc3a45b, type: 3}
+  playerRequirementsNotMetOptions:
+  - None@ Okay@ Thank you @ Oh, see you soon!
+  playerDescriptionOptions:
+  - I understand. I'll find these items.@ The whispers... Can you tell me more about
+    these items?@ Restless spirits? I'll see if this is worth my time.
+  - I will do my best to honor this request.@ Ancient secrets! I'm on it!
+  playerDeclinedOptions: []
+  playerAcceptedOptions: []
+  playerCompletedOptions:
+  - Thank you, Silent One. This knowledge is invaluable.@ The whispers... what do
+    they truly mean?@ Good. I'll put this to good use.@ Incredible! I've never seen
+    anything like this!
+  - Right. Well, that's that then.@ What's the catch? What's the real reward here?
+  playerFinishedOptions:
+  - The Silent One fades back into the shadows, leaving you to contemplate the ancient
+    knowledge you have gained, a sense of peace settling over you.@ The Silent One's
+    form dissolves into mist, leaving you with the reward and a lingering sense of
+    unanswered questions. The whispers continue, but their meaning remains elusive.@
+    The Silent One vanishes without fanfare. You turn your attention to the practical
+    applications of your newly acquired reward.
+  playerInProgressOptions:
+  - I will not rest until I find them.@ I'll proceed carefully. Are there any dangers
+    I should be aware of?@ This is taking longer than I expected. Any shortcuts?@
+    I'll gather more information before continuing my search. Any suggestions on
+    where to look?

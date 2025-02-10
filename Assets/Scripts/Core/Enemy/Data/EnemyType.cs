@@ -1,0 +1,51 @@
+
+public enum EnemyType
+{
+    Rabbit,
+    RabbitBoss,
+    Mushboom,
+    MushboomBoss,
+    Eagelian,
+    EagelianBoss,
+    Lumbeem,
+    LumbeemBoss,
+    Montur,
+    MonturBoss,
+    Gokem,
+    GokemBoss,
+    Beerus,
+    BeerusBoss,
+    Piggy,
+    PiggyBoss,
+    DragonInferno,
+    DragonSpark,
+    Wolf,
+    Werewolf,
+    HermitKing,
+    Snake,
+    Snakelet,
+    SnakeNaga,
+    SunflowerFairy,
+    AngelTiny,
+    AngelMedium,
+    AngelBig,
+    FireTiny,
+    FireMedium,
+    FireBig,
+    IceTiny,
+    IceMedium,
+    IceBig,
+    DeathTiny,
+    DeathMedium,
+    DeathBig,
+    WindTiny,
+    WindMedium,
+    WindBig,
+}
+
+public enum DifficultyType
+{
+    Normal,
+    Elite,
+    Boss
+}

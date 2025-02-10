@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54a3c35316b3c4017a888b73ac80686a, type: 3}
+  m_Name: Heremita Mission
+  m_EditorClassIdentifier: 
+  actorIcon: {fileID: 21300000, guid: eb56df93e31af4f088fe3bdcae43494e, type: 3}
+  questName: Heremita Quest
+  actorName: Heremita
+  requirementsNotMetText:
+  - '"The Grove of Whispers withers. Its ancient magic fades, choked by a creeping
+    blight. Before I can lend my aid, you must prove your understanding of nature''s
+    delicate balance. Bring me three Dewdrop Pearls and a Sunstone Shard."'
+  requirementsNotMetAudio:
+  - {fileID: 8300000, guid: 5e77f4385ca339a4aaf77f6ba341e076, type: 3}
+  descriptText:
+  - '"The Grove of Whispers, a sacred place, is dying. A blight, born of imbalance,
+    steals its life force. To heal it, you must gather three Dewdrop Pearls, formed
+    only at the heart of the morning mist, and a Sunstone Shard, warmed by the midday
+    sun. Bring these to me, and I will guide you in the restoration."'
+  descriptionAudio:
+  - {fileID: 8300000, guid: 7f9a8f375719ff94d91382d3c90f40d4, type: 3}
+  declinedText: []
+  declinedAudio: []
+  acceptedText: []
+  acceptedAudio: []
+  completedText:
+  - '"The balance is restored. The grove breathes again."'
+  completedAudio:
+  - {fileID: 8300000, guid: f2c886c482a220f4fac7bf2e34c7eb3a, type: 3}
+  finishedText:
+  - '"The whispers thank you."'
+  finishedAudio:
+  - {fileID: 8300000, guid: 3cb3150a9bcc5524bb891eb311ab6d27, type: 3}
+  inProgressText:
+  - '"The grove speaks in whispers. Listen carefully. The pearls and the shard hold
+    the key to its healing."'
+  inProgressAudio:
+  - {fileID: 8300000, guid: a6dda75c5004bf54e9c271979b00839f, type: 3}
+  playerRequirementsNotMetOptions:
+  - None@ Okay@ Thank you @ Oh, see you soon!
+  playerDescriptionOptions:
+  - I will do my best to help.@ What kind of blight is affecting the grove?@ Dewdrop
+    Pearls and a Sunstone Shard. I understand.@ Magic fading? I'll see about that.
+  playerDeclinedOptions: []
+  playerAcceptedOptions: []
+  playerCompletedOptions:
+  - Thank you, Heremita. The grove is grateful for your help.@ How did this blight
+    begin?@ Nature's balance is a delicate thing.@ This reward will be valuable.
+  playerFinishedOptions:
+  - "The blight\u2026 it was a reflection of the disharmony in the hearts of men.
+    The grove mirrors the world's soul.@  Indeed. The balance of nature is a delicate
+    dance, easily disrupted, but capable of incredible renewal.@ Perhaps the grove\u2019s
+    revival was coincidental. Or perhaps\u2026 you\u2019ll discover the truth in
+    time."
+  playerInProgressOptions:
+  - I will study the grove closely.@ I will find what you need.@ Is there a quicker
+    way to find these items?

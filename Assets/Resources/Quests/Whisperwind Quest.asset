@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83c37bf349d7f49849110b0d010d89eb, type: 3}
+  m_Name: Whisperwind Quest
+  m_EditorClassIdentifier: 
+  <id>k__BackingField: Whisperwind Quest
+  displayName: Whisperwind
+  playerLevelRequirement: 40
+  questPrerequisites: []
+  questStepPrefabs:
+  - {fileID: 4068857058930231765, guid: 4f6689cf50ad24c379080dc3fc7761a4, type: 3}
+  goldReward: 50
+  experienceReward: 100
+  dialogeInfo: {fileID: 11400000, guid: e240f9eadd63c4b41af4473937b584c3, type: 2}

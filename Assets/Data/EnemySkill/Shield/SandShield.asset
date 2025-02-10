@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5516c49a73204e5a8449c2d14d6ea77, type: 3}
+  m_Name: SandShield
+  m_EditorClassIdentifier: 
+  cooldown: 30
+  duration: 5
+  damage: 0
+  unlockSkillLevel: 0
+  skillPrefab: {fileID: 3640947576722515874, guid: ee87d34345c80482baa631936812a157, type: 3}
+  skillRange: 10
+  tickRate: 2
+  insideUnitCircleRadius: 4
