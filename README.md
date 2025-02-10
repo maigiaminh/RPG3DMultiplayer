@@ -62,7 +62,7 @@
 
 ### **🔧 Prerequisites**
 
-- Install **Unity Hub**, **Unity 2021+**, **Visual Studio**
+- Install **Unity Hub**, **Unity 6**, **Visual Studio**
 - Clone this repository:
 
 ```sh
